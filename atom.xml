@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>续梦人</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-05-23T15:33:05.888Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>续梦人</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>myblog.md</title>
+    <link href="http://example.com/2021/05/23/myblog-md/"/>
+    <id>http://example.com/2021/05/23/myblog-md/</id>
+    <published>2021-05-23T15:32:06.000Z</published>
+    <updated>2021-05-23T15:33:05.888Z</updated>
+    
+    <content type="html"><![CDATA[<p>IDA Pro简单使用</p><p>f5 伪代码和汇编代码来回切换</p><p>tab</p><p>空格键查看所有代码</p><p><img src="C:\Users\root\AppData\Roaming\Typora\typora-user-images\image-20210507143656520.png" alt="image-20210507143656520"></p><p>点击字符串，然后按X可以查看还有多少用了这个字符串    Ctrl+x</p><p>点击数字，按r数字可以转换为字符串或ascall码，点h 可以变回去</p><p>n可以进行重命名</p><p>g进行地址跳转</p><p>软件常用快捷键</p><p>空格键：反汇编窗口切换文本跟图形<br>Esc：在反汇编窗口中使用为后退到上个操作的地址处<br>Shift +F5：打开签名窗口<br>shift+F12：自动分析出参考字符串<br>ALT+T：搜索字符串(文本搜索)<br>ALT+L：标记(Lable)<br>ALT+M：设置标签(mark)<br>ALT+G：转换局部变量为结构体<br>ALT+Enter：跳转到新的窗口<br>Alt+B：快捷键用于搜索十六进制字节序列，通常在分析过程中可以用来搜索opcode<br>CTRL+M：列举出当前已经添加的标签<br>CTRL+S列举出二进制程序的段的开始地址、结束地址、权限等信息<br>F9：动态调试程序(其实IDA主要用作静态分析用的)<br>F5：将一个函数逆向出来(生成c伪代码)<br>G：跳转到指定地址<br>A：将选择的信息转换成ASCII(转换成可读性跟强的字符串)<br>X(ctrl+X)：交叉引用,类似于OD中的栈回溯操作<br>N：对符号重命名<br>：&amp;；(冒号&amp;分号)：光标所在位置添加常规注释和可重复注释<br>P：创建函数<br>T：解析结构体偏移<br>M：转换为枚举类型常量<br>Y：设置变量类型<br>H：转换16进制<br>C：光标所在地址处的内容解析成代码<br>D：光标所在地址处的内容解析成数据<br>A：光标所在地址处的内容解析成ascll码字符串<br>U：光标所在地址处的内容解析成未定义内容</p><p>@+t搜索字符串</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;IDA Pro简单使用&lt;/p&gt;
+&lt;p&gt;f5 伪代码和汇编代码来回切换&lt;/p&gt;
+&lt;p&gt;tab&lt;/p&gt;
+&lt;p&gt;空格键查看所有代码&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;C:\Users\root\AppData\Roaming\Typora\typora-user-images\i</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/05/23/hello-world/"/>
+    <id>http://example.com/2021/05/23/hello-world/</id>
+    <published>2021-05-23T07:08:48.196Z</published>
+    <updated>2021-05-23T07:08:48.197Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
